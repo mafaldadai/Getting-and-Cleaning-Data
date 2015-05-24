@@ -46,8 +46,12 @@ You may find more details of each step in the README.md
 There are total 180 rows and 81 columns.
 The fist column is subjectID. The second is activity labels. And the rest are means or standard deviations of different features.
 Each row shows the averages of different variables for a certain activity of a subject as following:
+
       subject activity_labels tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z
+
 1        1               1         0.2773308      -0.017383819        -0.1111481
+
 2        1               2         0.2554617      -0.023953149        -0.0973020
+
 3        1               3         0.2891883      -0.009918505        -0.1075662
 
