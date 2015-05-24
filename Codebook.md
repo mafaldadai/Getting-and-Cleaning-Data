@@ -11,21 +11,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 # Raw Data Sets
 The raw data sets that are used to form the final dataset "tidy" are shown as following:
-'test/X_test.txt': Test set.
-'test/y_test.txt': Test labels.
-'train/X_train.txt': Training set.
-'train/y_train.txt': Training labels.
-'features.txt': List of the column names in test and training data set. There are 561 variables 
-'train/X_train.txt': Training set.
-- 'activity_labels.txt': Links the class labels with their activity name.
-
-- 
-
-- 
-
-- 
-
-- 
+test/X_test.txt: Test set. 2947 rows and 561 columns of variables. Find the name of each variable in features.txt.
+test/y_test.txt: Test labels. 2947 labels. The labels ranges is from 1 to 6.
+train/X_train.txt: Training set. 7352 rows and 561 columns of vairables. Find the name of each variable in features.txt.
+train/y_train.txt: Training labels. 7352 labels. The labels ranges is from 1 to 6.
+features.txt: List of the column names of test and training data sets. There are 561 variables. 
+activity_labels.txt: Links the class labels with their activity name.
+train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+test/subject_test.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 # Transformation details
 run_analysis.R does the following:
@@ -35,3 +28,4 @@ run_analysis.R does the following:
 4.Appropriately labels the data set with descriptive variable names. 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 You may find more details of each step in the README.md
+
